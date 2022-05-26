@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a:link {
+            color: red;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: green;
+        }
+        
+        a:hover {
+            color: blue;
+        }
+        
+        nav ul {
+            list-style-type: none;
+        }
+        
+        nav li {
+            display: inline;
+        }
+        
+        nav a:link,
+        nav a:visited {
+            background-color: red;
+            color: white;
+        }
+        
+        nav a:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Links</h1>
+
+    <h2>Internal Link</h2>
+    <a href="linked-page1.html">linked page</a>
+
+    <h2>External Link</h2>
+    <a href="http://wikipedia.org/" target="_blank">wikipedia</a>
+
+    <br/><br/>
+    <a href="linked-page2.html"><img src="pexels-photo.jpeg" alt="pexels-photo" width="500" height="213"></a>
+
+
+    <h1>Navigation Link</h1>
+    <nav>
+        <ul>
+            <li><a href="linked-page1.html">Link 1</a></li>
+            <li><a href="linked-page2.html">Link 2</a></li>
+            <li><a href="linked-page3.html">Link 3</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
